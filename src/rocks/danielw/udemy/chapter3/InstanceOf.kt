@@ -1,6 +1,6 @@
-package rocks.danielw.chapter3
+package rocks.danielw.udemy.chapter3
 
-import rocks.danielw.model.Employee
+import rocks.danielw.udemy.model.Employee
 
 fun main() {
   val employee: Any = Employee(1, "John", "Doe")

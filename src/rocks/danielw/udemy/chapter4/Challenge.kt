@@ -1,6 +1,6 @@
-package rocks.danielw.chapter4
+package rocks.danielw.udemy.chapter4
 
-import rocks.danielw.chapter4.java.MyJavaClass
+import rocks.danielw.udemy.chapter4.java.MyJavaClass
 
 fun main() {
 

@@ -1,4 +1,4 @@
-package rocks.danielw.chapter4.java;
+package rocks.danielw.udemy.chapter4.java;
 
 import java.util.Arrays;
 

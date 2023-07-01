@@ -1,4 +1,4 @@
-package rocks.danielw.model
+package rocks.danielw.udemy.model
 
 data class Employee(val id: Int, val firstName: String, var lastName: String) {
 
@@ -10,9 +10,7 @@ data class Employee(val id: Int, val firstName: String, var lastName: String) {
 
     if (id != other.id) return false
     if (firstName != other.firstName) return false
-    if (lastName != other.lastName) return false
-
-    return true
+    return lastName == other.lastName
   }
 
   override fun hashCode(): Int {
@@ -25,5 +23,4 @@ data class Employee(val id: Int, val firstName: String, var lastName: String) {
   override fun toString(): String {
     return "$firstName $lastName"
   }
-
 }

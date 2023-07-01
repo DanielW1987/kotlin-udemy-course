@@ -1,6 +1,6 @@
-package rocks.danielw.chapter3
+package rocks.danielw.udemy.chapter3
 
-import rocks.danielw.model.Employee
+import rocks.danielw.udemy.model.Employee
 
 // Kotlin has also built-in typealias for java class, for example StringBuilder
 typealias EmployeeSet = MutableSet<Employee>

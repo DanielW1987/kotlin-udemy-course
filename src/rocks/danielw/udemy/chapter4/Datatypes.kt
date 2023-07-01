@@ -1,4 +1,4 @@
-package rocks.danielw.chapter4
+package rocks.danielw.udemy.chapter4
 
 fun main() {
   /*
@@ -11,7 +11,7 @@ fun main() {
   var myLong = 20L        // Data type is Long
 
   /*
-    It's not possible to put an Int value into an Long variable.
+    It's not possible to put an Int value into a Long variable.
     This won't compile:
       myLong = myInt
 
@@ -19,11 +19,10 @@ fun main() {
    */
   myLong = myInt.toLong()
   
-  
   /*
    * floating-point numbers
    */
-  var myDouble = 12.3456
+  var myDouble = 12.3456   // Double by default
   val myFloat = 987.654F
   
   // no automatic widening, you have to use converter method
@@ -33,7 +32,7 @@ fun main() {
   /*
    * characters
    */
-  val myChar = 'a'
+  val myChar: Char = 'a' // explicit type is redundant
   
   // convert from Int to char works only with use of converter method
   val myIntToBeInterpretedAsChar = 65 // compiler assumes this is an Int
@@ -45,7 +44,7 @@ fun main() {
    * Boolean
    * (nothing special)
    */
-  val myBoolean1 = true
+  val myBoolean1: Boolean = true // explicit type is redundant
   val myBoolean2 = false
 
 

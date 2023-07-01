@@ -1,4 +1,4 @@
-package rocks.danielw.chapter4
+package rocks.danielw.udemy.chapter4
 
 fun main() {
 
@@ -17,12 +17,12 @@ fun main() {
    * Kotlin enforces null checks for a nullable data type.
    * That's why the following line won't compile:
    *
-   *   str.toUpperCase()
+   *   str.uppercase()
    *
    * You have to do an explicitly null check.
    */
   if (str != null) {
-    println(str.toUpperCase())
+    println(str.uppercase())
   }
 
 
@@ -30,7 +30,7 @@ fun main() {
    * Null check is necessary even if the value is not null but data type is marked as nullable data type,
    */
   val str2: String? = "This is not null"
-  // str2.toUpperCase() => won't compile
+  //str2.uppercase() => won't compile
 
 
   /*
@@ -45,7 +45,7 @@ fun main() {
    *   str2.toUpperCase()
    * }
    */
-  str2?.toUpperCase()
+  str2?.uppercase()
 
 
   /*
@@ -69,7 +69,7 @@ fun main() {
    * Non-null asserted call operator
    * If you sure the variable is never null
    */
-  str2!!.toUpperCase()
+  str2!!.uppercase()
 
 
   /*
@@ -77,7 +77,7 @@ fun main() {
    * Scenario: We have a nullable data type but method wants a non-null data type
    */
   val str5: String? = "My Text"
-  // printText(str5) => won't compile'
+//  printText(str5) => won't compile'
   str5?.let { printText(it) } // does nothing if str5 is null
 
 

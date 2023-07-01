@@ -1,4 +1,4 @@
-package rocks.danielw.chapter3
+package rocks.danielw.udemy.chapter3
 
 fun main() {
 
@@ -16,6 +16,6 @@ fun main() {
   }
 
   // using explicit cast
-  println((value as String).toUpperCase()) // explicit cast
+  println((value as String).uppercase()) // explicit cast
 
 }

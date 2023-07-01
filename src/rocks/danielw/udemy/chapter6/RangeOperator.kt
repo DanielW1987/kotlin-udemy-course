@@ -1,4 +1,4 @@
-package rocks.danielw.chapter6
+package rocks.danielw.udemy.chapter6
 
 fun main() {
 
